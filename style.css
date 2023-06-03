@@ -43,8 +43,8 @@ body{
     float: left;
     background-color: rgb(2, 4, 50);
 }
-#screen{
-    height: 29vh;
+.screen{
+    height: 29.4vh;
     width: 67%;
     float: left;
     background-color: rgb(0, 0, 0);
