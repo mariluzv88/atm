@@ -41,7 +41,7 @@ const buttonNput = (info) =>{
             screen.innerHTML='Would you like to change your PIN?, Your pin is:'
            screen.append(changePin)
         }else if (info === 'makePayment'){
-            screen.innerHTML='Would you like to make a Payment?'
+            screen.innerHTML='Would you like to make a Payment? '
            screen.append(makePayment)
         }else if (info === 'recent'){
             screen.innerHTML='These are you most recent Transactions:     '
