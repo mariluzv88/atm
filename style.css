@@ -5,7 +5,6 @@
 body{
     background-color: black;
     height: 100%;
-    width: 100%;
 }
 
 .mainContainer{
@@ -20,78 +19,61 @@ body{
    
     
 }
-.screen{
-   
-    
-    height: 470px;
-    width: 890px;
-    margin: 90px 0px 80px 50px;
-
-   
+.menu{
+  height: 470px;
+ margin: 90px 0px 80px 50px;
 }
 .welcome{
-    border: solid rgb(32, 245, 3);
+    border: solid rgb(0, 239, 36);
     height: 60px;
-    background-color: rgb(6, 93, 93);
+    background-color: rgb(0, 104, 224);
     text-align: center;
     font-family: 'Franklin Gothic Medium' ;
     font-size: 35px;
     padding: 20px 0px 20px 0px;
-    color: ghostwhite;
+    color: rgb(255, 255, 255);
+    width: 896px;
+    /* display: flex;
+    justify-content: space-evenly; */
 }
-.rowContainer{
-    width: 100%;
+.section{
+    height: 29vh;
+    width: 13%;
+    border: solid rgb(3, 20, 255);
+    float: left;
+    background-color: rgb(2, 4, 50);
+}
+#screen{
+    height: 29vh;
+    width: 67%;
+    float: left;
+    background-color: rgb(0, 0, 0);
+    color: lime;
+    text-align: center;
+    font-size: 40px;
     
-   
-}
-.row1{
-    display: flex;
-    justify-content: space-evenly;
-    background-color: rgb(3, 51, 32);
-    height: 92px;
     
-    
-}
-.row2{
-    display: flex;
-    justify-content: space-evenly;
-    background-color: rgb(4, 68, 43);
-    height: 92px;
-}
-.row3{
-    display: flex;
-    justify-content: space-evenly;
-    background-color: rgb(6, 99, 62);
-    height: 92px;
-}
-.row4{
-    display: flex;
-    justify-content: space-evenly;
-    background-color: rgb(7, 118, 73);
-    height: 92px;
 }
 .transaction{
-    background-color: rgb(4, 217, 4);
-    border-radius: 45px;
-    color: rgb(11, 11, 189);
+    margin: 20px 20px 20px 0px;
+    width: 124px;
+    height: 54px;
+    background-color: rgb(6, 0, 178);
+    color: lime;
     font-family: 'Franklin Gothic Medium';
     font-size: large;
-    border: solid lime;
-    height: 60px;
-    width: 190px;
-    margin: 15px 0px 0px 0px;
-    background-color: rgb(4, 217, 4);
-
+    border: solid rgb(255, 255, 255);
 }
 .transaction1{
-    background-color: rgb(4, 217, 4);
-    border-radius: 45px;
-    color: rgb(11, 11, 189);
+    margin: 20px 0px 20px 0px;
+    width: 124px;
+    height: 54px;
+    background-color: rgb(0, 23, 170);
+    color: lime;
     font-family: 'Franklin Gothic Medium';
     font-size: large;
-    border: solid lime;
-    height: 60px;
-    width: 190px;
-    margin: 15px 500px 0px 0px;
+    border: solid rgb(255, 255, 255);
     
 }
+
+
