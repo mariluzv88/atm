@@ -75,5 +75,12 @@ body{
     border: solid rgb(255, 255, 255);
     
 }
+.btn10,.btn20,.btn50,.btn100,.dbtn10,.dbtn20,.dbtn50,.dbtn100{
+height: 50px;
+width: 50px;
+background-color: lime;
+margin-left: 10px;
+display: none;
+}
 
 
